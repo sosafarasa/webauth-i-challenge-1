@@ -10,7 +10,7 @@ server.use(express.json());
 server.use(cors());
 
 server.get('/', (req, res) => {
-    res.send("Hey there, it's working!");
+    res.send(`<h1>Hey there, it's working!</h1>`);
   });
 
 const port = process.env.PORT || 5000;
